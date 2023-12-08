@@ -1,0 +1,29 @@
+.home{
+    background-color: black;
+}
+.sec1{
+    margin-top: 5%;
+}
+.sec1>div{
+    background: url(/public/Assets/home-img/poster.jpg) black no-repeat ;
+    background-position:right;
+    background-size: contain;
+    height: 500px;
+    padding-left: 10%;
+}
+.btns>button:hover{
+    box-shadow: 0 0 70px rgb(13, 202, 240);
+}
+.heading{
+    font-size: 64px;
+    font-weight: bolder;
+}
+.sec2{
+    height: max-content;
+}
+.points{
+    padding: 10px ;
+}
+.points>b{
+    font-size: 20px;
+}

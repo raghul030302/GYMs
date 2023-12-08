@@ -1,0 +1,41 @@
+.main {
+    background-image: url("../../../public/images/about.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+}
+.main .title p{
+    font-size: 4em;
+    font-weight: 700;
+    color: white;
+    text-shadow: 5px 10px 20px #000;
+}
+
+.story .row p{
+    font-size: 1.2em;
+}
+.service img{
+    border: 3px solid rgb(13, 202, 240);
+}
+
+@media(max-width:600px){
+    .main .title p{
+        font-size: 1.3em;
+    }
+    
+    .main .title h4{
+        font-size: 1em;
+    }
+    .main{
+        height: 400px;
+    }
+    .story .row p{
+        font-size: 1em;
+    }
+    .story .row .col2{
+        margin-top: -150px;
+        margin-left: -50px;
+    }
+}
